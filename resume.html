@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<head>
+    <title>My Resume</title>
+    <style>
+     body {
+        margin:0;
+        background : #f6f5f5
+        font
+     }
+
+     .resume{
+        width: 800px;
+        margin: 30px auto;
+        padding:40px 50px;
+        background: white;
+     }
+
+     header{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1px;
+        border-bottom: 1px solid #d5d5d5;
+     }
+
+     h1{
+        margin:0;
+        font-family:Georgia, serif;
+        font-size: 44px;
+        font-weight: normal;
+        letter-spacing:2px;
+     }
+
+     .photo{
+        width: 75px;
+        height: 100px;
+        object-fit: cover;
+     }
+
+     main{
+        display:flex;
+     }
+
+     aside{
+        padding-right: 35px;
+        border-right: 1px solid #d5d5d5;
+     }
+
+     article{
+        padding-left: 35px;
+     }
+
+     section{
+        padding-left:20px 0;
+        border-bottom: 1px solid #d5d5d5;
+     }
+
+     h2{
+        margin:0 0 10px;
+        font-size: 12px;
+        letter-spacing:2px;
+        text-transform: uppercase;
+     }
+
+     p,li,address{
+        color: #666;
+        font-size: 10px;
+        line-height: 1.5;
+     }
+
+     a{
+        color: #555;
+        text-decoration: none;
+     }
+
+     ul{
+        margin:0;
+        padding-left:18px;
+     }
+
+     .education{
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 10px;
+     }
+
+     .summary{
+        margin: 0;
+        font-size: 10px;
+     }
+
+     .education th,.education td{
+        padding: 3px 6px;
+        border: 1px solid #d5d5d5;
+        text-align: left;
+     }
+
+     .project,.certification{
+        margin-bottom: 20px;
+        font-size: 10px;
+     }
+
+     .project strong,.certification strong{
+        font-size: 10px;
+     }
+    </style>
+</head>
+<body>
+  div class="resume">
+    <header>
+        <h1>Sumana</h1>
+        <img src="C:\Users\HP\OneDrive\Pictures\photo.jpg" alt="Sumana" class="photo">
+    </header>
+    <main>
+        <aside>
+            <section>
+                <h2>Contact</h2>
+                <address>
+                    +91 7306744685<br/>
+                    <a href="mailto.sumanakomme@gmail.com">sumanakomme@gmail.com</a>
+                    <a href="https://linkedin.com">linkedin.com/in/Sumana</a>
+                    <a href="https://github.com">github.com/Sumana-komme</a>
+                </address>
+            </section>
+
+            <section>
+                <h2>Skills</h2>
+                <ul>
+                    <li>C</li>
+                    <li>Data structures & Algorithms</li>
+                    <li>Database systems</li>
+                    <li>JavaScript</li>
+                </ul>
+            </section>  
+
+            <section>
+                <h2>Languages</h2>
+                <ul>
+                    <li>English</li>
+                    <li>Kannada</li>
+                    <li>Hindi</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Interests</h2>
+                <ul>
+                    <li>Reading</li>
+                    <li>Gardening</li>
+                    <li>Photography</li>
+                </ul>
+            </section>
+        </aside>
+
+        <article>
+            <section>
+                <h2>summary</h2>
+                <p class="summary">Third year BE Computer Science and Engineering student with a foundational understanding of data structures,database and programming,seeking an oopurtunityto applyand grow mytechnical skills in a professional software development environment.</p> 
+            </section>
+
+            <section>
+                <h2>Education</h2>
+                <table class="education">
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Percentage</th>
+                    </tr>
+                    <tr>
+                        <td>B.E Computer Science and Engineering</td>
+                        <td>BIT, Bangalore</td>
+                        <td>2024-2028</td>
+                        <td>9.39 CGPA</td>
+                    </tr>
+                    <tr>
+                        <td>PUC</td>
+                        <td>Ambika PU College, Puttur</td>
+                        <td>2022-2024</td>
+                        <td>96.6%</td>
+                    </tr>
+                    <tr>
+                        <td>SSLC</td>
+                        <td>VAUP School,Miyapadavu</td>
+                        <td>2022</td>
+                        <td>98.7%</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <h2>Projects</h2>
+                <div class="project">
+                    <strong>IOT based Rain Detection System</strong>
+                    <p>Designed and implemented an IoT-based rain detection system using sensors and microcontrollers. The system automatically detects rainfall and triggers alerts.</p>
+                </div>
+                
+                <section>
+                    <h2>Certifications</h2>
+                    <div class="certification">
+                        <strong>Certification 1:</strong> <p>Basics of Python(Infosys Springboard)</p>
+                    </div>
+                </section>
+        </article>
+
+    </main>
+  </div>        
+  </body>
+  </html>
