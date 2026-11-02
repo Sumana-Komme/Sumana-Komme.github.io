@@ -14,3 +14,6 @@ Lab 3 :
 Lab 4 : 
 <img width="516" height="552" alt="image" src="https://github.com/user-attachments/assets/892cc082-f132-44e8-bd9b-bed4f2ad9543" />
 
+Lab 5 :
+<img width="779" height="545" alt="image" src="https://github.com/user-attachments/assets/8079004f-c12a-4895-bc66-514f3f5d0973" />
+
